@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #212121;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #212121;
+  font-weight: 500;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 120px 20px;
+  background: #2f303a;
+  color: white;
+}
+
+.hero button {
+  margin-top: 20px;
+  padding: 12px 30px;
+  background: #2196f3;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 40px;
+}
+
+.feature {
+  width: 22%;
+}
+
+
+.work {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.work-images {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.work-images img {
+  width: 32%;
+}
+
+
+.team {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.team-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.team-item {
+  width: 23%;
+  background: #f5f4fa;
+  padding-bottom: 20px;
+}
+
+.team-item img {
+  width: 100%;
+}
+
+
+footer {
+  background: #2f303a;
+  color: white;
+  padding: 40px;
+  text-align: left;
+}

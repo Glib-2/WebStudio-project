@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebStudio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .div{
+            width: 200px;
+            height: 190px;
+            background-color: cornflowerblue;
+            transition-property: background-color text;
+            transition-duration: 50ms;
+        }
+
+        .div:hover{
+            background-color: lightblue;
+        }
+
+        .div::after{
+            
+        }
+        
+        .mini_container{
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            gap: 20px;
+            margin: 20px 20px 20px 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>WebStudio</h2>
+
+        <nav>
+            <a href="#">Студія</a>
+            <a href="#">Портфоліо</a>
+            <a href="#">Контакти</a>
+        </nav>
+    </header>
+    <div class="mini_container">
+        <div class="div"></div>
+        <div class="div"></div>
+        <div class="div"></div>
+    </div>
+    <div class="hero">
+        <h1>ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
+        <button>Замовити послугу</button>
+    </div>
+
+    <div class="features">
+
+        <div class="feature">
+            <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p>Ідеальні матеріали, і навіть початок повсякденної роботи з формування позиції.</p>
+        </div>
+
+        <div class="feature">
+            <h3>ПУНКТУАЛЬНІСТЬ</h3>
+            <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у собі.</p>
+        </div>
+
+        <div class="feature">
+            <h3>ПЛАНУВАННЯ</h3>
+            <p>Так само осередок і структура активом вимагає широкого уявлення.</p>
+        </div>
+
+        <div class="feature">
+            <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p>Значення цих проблем настільки очевидна, що реалізація планових завдань.</p>
+        </div>
+
+    </div>
+
+    <div class="work">
+        <h2>Чим ми займаємося</h2>
+
+        <div class="work-images">
+            <img src="img/computer.webp">
+            <img src="img/work2.jpg">
+            <img src="img/work3.jpg">
+        </div>
+    </div>
+
+    <div class="team">
+        <h2>Наша команда</h2>
+
+        <div class="team-list">
+
+            <div class="team-item">
+                <img src="img/team1.jpg">
+                <h3>Ігор Джиченко</h3>
+                <p>Product Designer</p>
+            </div>
+
+            <div class="team-item">
+                <img src="img/team2.jpg">
+                <h3>Ольга Рєпіна</h3>
+                <p>Frontend Developer</p>
+            </div>
+
+            <div class="team-item">
+                <img src="img/team3.jpg">
+                <h3>Микола Тарасов</h3>
+                <p>Marketing</p>
+            </div>
+
+            <div class="team-item">
+                <img src="img/team4.jpg">
+                <h3>Михайло Єрмаков</h3>
+                <p>UI Designer</p>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <h2>WebStudio</h2>
+        <p>м. Київ, пр-т Лесі Українки, 26</p>
+        <p>info@webstudio.com</p>
+        <p>+38 096 111 11 11</p>
+    </footer>
+
+</body>
