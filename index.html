@@ -7,23 +7,33 @@
     <title>WebStudio</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        .div{
-            width: 200px;
-            height: 190px;
-            background-color: cornflowerblue;
-            transition-property: background-color text;
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .div {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(21, 72, 165);
+            transition-property: background-color;
             transition-duration: 50ms;
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+        .div::after {
+            content: "";
+        }
+
+        .div:hover::after {
+            content: "Система прокинулась.";
         }
 
         .div:hover{
-            background-color: lightblue;
+            background-color: rgb(121, 15, 15);
         }
 
-        .div::after{
-            
-        }
-        
-        .mini_container{
+        .mini_container {
             display: flex;
             justify-content: center;
             flex-direction: row;
